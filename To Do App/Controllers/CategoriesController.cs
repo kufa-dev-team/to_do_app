@@ -11,6 +11,7 @@ namespace To_Do_App.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
+        //
         private readonly string _connectionString;
 
         public CategoriesController(IConfiguration configuration)
